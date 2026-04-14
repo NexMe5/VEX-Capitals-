@@ -53,13 +53,13 @@ export const Login = () => {
           </div>
 
           {/* Test credentials hint */}
-          {mode === 'login' && (
+          {/* /* {mode === 'login' && (
             <div className="liquid-glass border border-white/10 rounded-xl px-4 py-3 mb-6 text-xs text-gray-500">
               <span className="text-gray-400 font-medium">Test credentials:</span>
               <br />Admin: <span className="text-gray-300">admin@vex.com</span> / <span className="text-gray-300">password123</span>
               <br />User: <span className="text-gray-300">test@vex.com</span> / <span className="text-gray-300">test1234</span>
             </div>
-          )}
+          )} */ */}
 
           <form onSubmit={handleSubmit} className="flex flex-col gap-4">
             {mode === 'register' && (
